@@ -6,7 +6,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - iojs
+  - "9"
 before_install:
   - npm i -g npm@^6.13.4
 before_script:
