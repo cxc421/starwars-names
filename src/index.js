@@ -12,7 +12,5 @@ function random(number) {
   return randomItems;
 }
 
-module.exports = {
-  all: starWarsNames,
-  random
-};
+export const all = starWarsNames;
+export { random };

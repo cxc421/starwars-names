@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import starWarsNames from "./index";
+import * as starWarsNames from "./index";
 
 describe("starwars-names", () => {
   describe("all", () => {
