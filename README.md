@@ -32,7 +32,7 @@ var randomName = starWarsNames.random();
 In Node.js:
 
 ```js
-import * as starWarsNames from "@chrischuang/starwars-names";
+const starWarsName = require("@chrischuang/starwars-names");
 
 const allPossibleNames = starWarsNames.all;
 const randomName = starWarsNames.random();
